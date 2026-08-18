@@ -1,4 +1,4 @@
-# 搭建个人专属-网络配置指南（Mac 版）
+# 个人 VPS 入门使用指南（Mac 版）
 ---
 
 > **我推荐自己搭建是因为，我自己的设计工作就需要经常访问国外网站（pinterest 这个网站同行应该都懂），之前用 5、6 家都跑路了，就知道靠别人不如靠自己，从 21 年开始就自己搭建用了 5 年，它除了比那些跑路的稍微贵些（但算上当时发现他跑路的闹心就平复了？），就没其他毛病了。**
@@ -396,3 +396,5 @@ journalctl -u xray --since "5 min ago" --no-pager
 | 重启服务 | `systemctl restart xray` |
 | 查看日志 | `journalctl -u xray --since "5 min ago" --no-pager` |
 | 重新运行脚本菜单 | `bash <(curl -Ls https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh)` |
+
+提醒：VPS 应用于个人网站、博客部署、开发测试、远程运维学习、数据备份等合规场景。请遵守所在地法律法规、服务商使用条款以及相关平台规则。
